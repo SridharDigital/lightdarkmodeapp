@@ -1,1 +1,7 @@
-/* Write your CSS here */
+.light-theme {
+  background-color: white;
+}
+
+.dark-theme {
+  background-color: black;
+}
