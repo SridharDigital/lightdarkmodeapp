@@ -1,7 +1,34 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: red;
+}
+
+.card {
+  padding: 24px;
+  text-align: center;
+  border-width: 2px;
+}
+
 .light-theme {
   background-color: white;
 }
 
 .dark-theme {
   background-color: black;
+}
+
+.dark-heading {
+  color: black;
+}
+
+.light-heading {
+  color: white;
+}
+
+.button {
+  padding: 12px;
 }
